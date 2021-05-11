@@ -1,4 +1,5 @@
 ---
+#集群针对不同配置启动，三个注册中心相互注册
 spring:
   application:
     name: spring-cloud-eureka
