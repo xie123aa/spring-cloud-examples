@@ -3,6 +3,7 @@ server:
 spring:
   cloud:
     gateway:
+#      在配置文件中配置gateway的路由匹配规则。
       routes:
       - id: neo_route
         uri: http://www.ityouknow.com

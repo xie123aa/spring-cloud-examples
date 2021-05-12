@@ -13,6 +13,7 @@ public class GateWayApplication {
 		SpringApplication.run(GateWayApplication.class, args);
 	}
 
+	//方式二通过在启动类中配置gateway的路由匹配规则
 	@Bean
 	public RouteLocator customRouteLocator(RouteLocatorBuilder builder) {
 		return builder.routes()
